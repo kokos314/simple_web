@@ -1,1 +1,5 @@
 ./config/*
+.buildpath
+.project
+.settings/
+.settings/*
