@@ -109,12 +109,12 @@ class Misc
 	} 
 	
 	
-	public static function GetLastModuleName() 
+	/*public static function GetLastModuleName() 
 	{
 		$c = sfContext::getInstance()->getActionStack()->getSize();
 	    $e = sfContext::getInstance()->getActionStack()->getEntry($c-2);
 		return $e==NULL ? NULL : $e->getModuleName();
-	}
+	}*/
 	
 	public static function GetVal($arr, $idx, $def=NULL) 
 	{

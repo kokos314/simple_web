@@ -21,7 +21,7 @@
 	//------------------------------------
 	
 	$start_time = microtime(true);
-	require_once 'config.php';
+	require_once './config/config.php';
 	srand(); 
 	
 	$stat_update = Statistics::Update();

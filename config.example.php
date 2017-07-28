@@ -27,7 +27,7 @@
 	define('D_DB_PASSWORD', '');
 	define('D_DB_HOST', '');
 	define('D_DB_PORT', '');
-	require_once './inc/function/system.functions.php';
+	require_once '../inc/function/system.functions.php';
 	
 	
 	
